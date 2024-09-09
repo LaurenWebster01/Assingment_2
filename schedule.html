@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Class Schedule</title>
+    <style>
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td:hover{
+            background-color: #f9f9f9;
+        }
+        td{
+            text-align:center;
+        }
+        /* This sets the default background color of the table cells */
+        th,td{
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+        }
+        /* This allows a yellow highlight to come over the here word when you hover over it. */
+        a:hover{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <!-- This is where we give the header an id selector -->
+    <div id="header">
+    <!-- This is where we use the h1 tag for the heading -->
+        <h1>Weekly Class Schedule</h1>
+    </div>
+    <div>
+        <h3>Class Schedule For Fall 2024</h3>
+        
+    </div>
+    <div class="table">
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Course Name</th>
+                <th>Instructor</th>
+                <th>Room Number</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>12:30 - 1:50</td>
+                <td>Software Design</td>
+                <td>C. Pascucci</td>
+                <td>TTLMN 402</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Tuesday</td>
+                <td>11:00 - 12:20</td>
+                <td>Client-Side</td>
+                <td>M. Hospet</td>
+                <td>TTLMN 307AB</td>
+            </tr>
+            <tr>
+                <td>12:30 - 1:50</td>
+                <td>CST Prof. Dev</td>
+                <td>A. Stefanile</td>
+                <td>SERC 456</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>12:30 - 1:50</td>
+                <td>Software Design</td>
+                <td>C. Pascucci</td>
+                <td>TTLMN 402</td>
+            </tr>
+            <!-- This is the row for Thursday's 11:00 - 12:20 class -->
+            <tr>
+                <td>Thursday</td>
+                <td>11:00 - 12:20</td>
+                <td>Client-Side</td>
+                <td>M. Hospet</td>
+                <td>TTLMN 307AB</td>
+            </tr>
+            <!-- This is Thursday's 5:30 - 8:00 class with a colspan for Time and Course Name -->
+            
+            <!-- This is Friday's 1:00 - 2:50 class with a colspan for Time and Course Name -->
+            <tr>
+                <td>Friday</td>
+                <td colspan="2">1:00 - 2:50</td> <!-- Colspan for Time and Course Name -->
+                <td>Client-Side</td>
+                <td>M. Hospet</td>
+                <td>BIO LIFE 127</td>
+            </tr>
+        </table>
+
+        <p><b>Information about the courses can be found <a href="https://bulletin.temple.edu/undergraduate/courses/cis/" target="_blank">here</a>.</b></p>
+        
+        
+        
+
+    </div>
+</body>
+</html>
